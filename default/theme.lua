@@ -13,22 +13,22 @@ local theme = {}
 
 theme.font = "Noto Sans Mono"
 
-theme.bg_normal = "#1e1e2e"
-theme.bg_focus = "#1e1e2e"
-theme.bg_urgent = "#f38ba8"
-theme.bg_minimize = "#444444"
+theme.bg_normal = "#181616"
+theme.bg_focus = "#181616"
+theme.bg_urgent = "#00ff00"
+theme.bg_minimize = "#0f0d0d"
 theme.bg_systray = theme.bg_normal
 
-theme.fg_normal = "#cdd6f4"
-theme.fg_focus = "#cba6f7"
-theme.fg_urgent = "#cdd6f4"
+theme.fg_normal = "#c5c9c5"
+theme.fg_focus = "#c8c093"
+theme.fg_urgent = "#ff0000"
 theme.fg_minimize = "#ffffff"
 
 theme.useless_gap = dpi(3)
 theme.border_width = dpi(2)
-theme.border_normal = "#1e1e2e"
-theme.border_focus = "#cba6f7"
-theme.border_marked = "#cba6f7"
+theme.border_normal = "#181616"
+theme.border_focus = "#c4b28a"
+theme.border_marked = "#0000ff"
 
 -- There are other variable sets
 -- overriding the default one when
@@ -93,7 +93,7 @@ theme.titlebar_maximized_button_focus_inactive = themes_path .. "default/titleba
 theme.titlebar_maximized_button_normal_active = themes_path .. "default/titlebar/maximized_normal_active.png"
 theme.titlebar_maximized_button_focus_active = themes_path .. "default/titlebar/maximized_focus_active.png"
 
-theme.wallpaper = "/home/alek/.config/awesome/default/background.jpg"
+theme.wallpaper = "/home/alek/.config/awesome/default/background.png"
 
 -- You can use your own layout icons like this:
 theme.layout_fairh = themes_path .. "default/layouts/fairhw.png"
